@@ -1,0 +1,362 @@
+/* ========common css start========== */
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+.container{
+    width:1155px;
+    margin:0 auto;
+}
+.clr{
+    clear: both;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* ========common css end========== */
+/* ========navbar css start========= */
+#navbar{
+    /* position: absolute; */
+    top:0;
+    left:0;
+    width:100%;
+}
+.logo{
+    width:20%;
+    float:left;
+    padding-top:23px;
+}
+.menu{
+    width:80%;
+    float:left;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding-top:29px;
+    padding-bottom: 32px;
+    transition:all linear .3s;
+}
+.menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #484c55;
+    padding-left: 19px;
+    padding-right: 19px;
+    transition:all linear .3s;
+    position: relative;
+}
+.menu ul li a:after{
+    content:'';
+    position: absolute ;
+}
+.menu ul li:hover{
+    background-color: #f8f9fb;
+    border-bottom: 3px solid #60d1d3;
+}
+.menu ul li a:hover{
+    color:#60d1d3 ;
+
+}
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+/* ========navbar css start========= */
+/* ========banner css start========= */
+#banner{
+    background:url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 139px;
+    padding-bottom: 147px;
+    /* text-align: center; */
+}
+.banner-content{
+    /* display:inline-block; */
+    text-align: center;
+}
+.banner-content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 63px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 33px;
+
+}
+.banner-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #ffffff;
+    width:378px;
+    display: inline-block;
+    line-height: 30px;
+}
+.banner-button{
+    text-align: center;
+    padding-top:56px;
+}
+.banner-button button{
+    border:3px solid #ffffff;
+    background-color:#0000;
+    border-radius: 10px;
+    padding:22px 35px 22px 42px;
+}
+.banner-button button a{
+    font-family: 'Open Sans', sans-serif;
+    font-size:26px;
+    font-weight:600;
+    color:#ffffff;
+    transition: all linear 0.3s;
+}
+.banner-button button a:hover{
+    color:#60d1d3;
+}
+/* ========banner css end========= */
+/* ========details css start========= */
+#details{
+    padding-top:81px;
+    padding-bottom:80px;
+}
+.details-item{
+    width: 288px;
+    text-align: center;
+    float:left;
+}
+.details-content h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    padding-top:35px;
+    color: #4e525d;;
+}
+.details-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    /* font-weight:300; */
+    color: #4e525d;
+    line-height: 22px ;
+    padding-top: 16px;
+}
+.secound-details{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.details-button{
+    text-align:center;
+    padding-top:10px;
+
+}
+.details-button button{
+    border-radius: 5px;
+    border: #49cbcd;
+    background-color: #49cbcd;
+    padding:8px 10px 10px 15px;
+}
+.details-button a{
+    color:#ffffff;
+}
+/* ========details css end========= */
+/* ========portfolio css start========= */
+#portfolio{
+    background-color: #f1f1f1;
+    padding-top: 39px;
+    padding-bottom: 75px;
+}
+.portfolio-header{
+    text-align: center;
+    padding-bottom:52px;
+}
+.portfolio-header h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-weight:300;
+    color: #4e525d;
+}
+.port-item{
+    width:365px;
+    float:left;
+}
+.port-img img{
+    padding-bottom:18px;
+}
+.middle-port1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.middle-port2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.port-button{
+    text-align:center;
+    padding-top:20px;
+}
+.port-button button{
+    border: #49cbcd;
+    background-color:#49cbcd ;
+    padding:20px 42px 22px 40px;
+}
+.port-button button a{
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    color:#ffffff;
+}
+/* ========portfolio css end========= */
+/* ========team css start========= */
+#team{
+    padding-top:70px;
+    padding-bottom:90px;
+}
+.team-header{
+    text-align: center;
+}
+.team-header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size:42px;
+    font-weight:300;
+    color:#4e525d;
+}
+.team-item{
+    width:288px;
+    text-align:center;
+    padding-top:140px;
+    float:left;
+}
+.team-details{
+    padding-top:51px;
+}
+.team-details h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size:22px;
+    font-weight:400;
+    color:#4e525d;
+}
+.team-details h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    font-weight:400;
+    color:#4e525d;
+    padding-top:10px;
+}
+.team-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    font-weight:400;
+    color:#4e525d;
+    padding-top:28px;
+    line-height: 20px ;
+}
+.team-secound{
+    padding-left:1px;
+    padding-right:1px;
+}
+/* ========team css end========= */
+/* ========client css start========= */
+/* .arrow{
+    padding-top: 203px;
+}
+.arrow-left{
+    float:left;
+}
+.arrow-right{
+    float:right;
+} */
+#client{
+    padding-bottom:108px;
+}
+.client-content{
+    text-align:center;
+}
+.client-content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size:42px;
+    font-weight:300;
+    color:#4e525d;
+    padding-bottom:35px ;
+}
+.client-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:19px;
+    font-weight:400;
+    color:#7d8086;
+    line-height: 25px;
+    width:647px;
+    display: inline-block;
+}
+.client-content h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size:21px;
+    font-weight:300;
+    color:#9a8faf;
+    padding-top:28px ;
+}
+/* ========client css end========= */
+/* ========contact css start========= */
+#contact{
+    background:url('../images/contact.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding-top:108px;
+    padding-bottom:183px;
+}
+.contact-header{
+    text-align: center;
+    padding-bottom:92px;
+}
+.contact-header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size:42px;
+    font-weight:300;
+    color:#ffffff;
+}
+.contact-item{
+    width:577px;
+}
+.contact-left-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    font-weight:300;
+    color:#ffffff;
+    padding-bottom:15px;
+}
+.contact-left-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    font-weight:300;
+    color:#909090;
+    width:429px;
+    line-height:20px;
+}
+.contact-left-logo{
+    padding-top: 32px;
+    padding-bottom: 19px;
+    float:left;
+}
+.logo-middle{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.contact-left-last p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    font-weight:300;
+    color:#b7a5d9;
+}
+.last-middle{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+/* ========team css start========= */
